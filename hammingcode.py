@@ -8,7 +8,7 @@ Created on Sun May 22 19:07:51 2022
 data=list(map(int,input("Enter 4bit data: ")))
 r0=data[1]^data[2]^data[3]
 r1=data[0]^data[1]^data[2]
-r2=data[2]^data[3]^data[3]
+r2=data[2]^data[3]^data[0]
 data.append(r0)
 data.append(r1)
 data.append(r2)
